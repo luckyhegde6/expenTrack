@@ -58,6 +58,11 @@ See `SETUP_FROM_SCRATCH.md` for complete from-zero recreation guide.
    > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
    > ```
 
+   **Activate the virtual environment (Command Prompt / cmd):**
+   ```
+   .venv\Scripts\activate.bat
+   ```
+
 3. **Install dependencies:**
    ```
    pip install -r requirements.txt
